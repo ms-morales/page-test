@@ -10,6 +10,9 @@ header {
     color: white;
     padding: 10px 0;
     text-align: center;
+paragraph {
+ textFragment(content="Este video muestra cómo cambiar el color de un encabezado con estilo en línea:")
+     video(results=["vid2"], size="hero");
 }
 
 nav ul {
@@ -83,3 +86,4 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
