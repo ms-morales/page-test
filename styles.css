@@ -2,6 +2,17 @@
    HERO
 ===================== */
 
+
+body.tech-theme {
+    animation: bgMove 40s linear infinite;
+}
+
+@keyframes bgMove {
+    0% { background-position: center top; }
+    50% { background-position: center center; }
+    100% { background-position: center top; }
+}
+
 body.tech-theme {
     background:
         linear-gradient(
