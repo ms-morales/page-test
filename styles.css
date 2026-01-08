@@ -1,6 +1,22 @@
 /* =====================
    HERO
 ===================== */
+
+body.tech-theme {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.85)
+        ),
+        url("img/fondo-tech.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: #e0e0e0;
+    line-height: 1.6;
+}
 .hero {
     min-height: 80vh;
     display: flex;
